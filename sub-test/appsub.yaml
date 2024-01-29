@@ -1,0 +1,72 @@
+apiVersion: v1                    
+kind: Namespace
+metadata:
+  name: all-cluster-placement-ns                             
+---
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: all-cluster-placement
+  namespace: all-cluster-placement-ns
+spec:
+  componentKinds:
+  - group: apps.open-cluster-management.io
+    kind: Subscription
+  descriptor: {}
+  selector:
+    matchExpressions:
+      - key: app
+        operator: In
+        values: 
+          - all-cluster-placement
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  annotations:
+    apps.open-cluster-management.io/git-branch: main
+    apps.open-cluster-management.io/git-path: helloworld
+    apps.open-cluster-management.io/reconcile-option: merge
+  labels:
+    app: all-cluster-placement
+  name: all-cluster-placement-subscription-1
+  namespace: all-cluster-placement-ns
+spec:
+  channel: ggithubcom-stolostron-application-lifecycle-samples-ns/ggithubcom-stolostron-application-lifecycle-samples
+  placement:
+    placementRef:
+      kind: Placement
+      name: all-cluster-placement-placement-1
+  timewindow:
+    windowtype: active
+    location: "America/New_York"
+    daysofweek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    hours:
+      - start: "1:00AM"
+        end: "11:00PM"
+---
+apiVersion: cluster.open-cluster-management.io/v1beta1
+kind: Placement
+metadata:
+  labels:
+    app: all-cluster-placement
+  name: all-cluster-placement-placement-1
+  namespace: all-cluster-placement-ns
+spec:
+  predicates:
+    - requiredClusterSelector:
+        labelSelector:
+          matchExpressions:
+            - key: 'name'
+              operator: 'Exists'
+  clusterSets:
+    - global
+---
+apiVersion: cluster.open-cluster-management.io/v1beta2
+kind: ManagedClusterSetBinding
+metadata:
+  namespace: all-cluster-placement-ns
+  name: global
+spec:
+  clusterSet: global
+---
