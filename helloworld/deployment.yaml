@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-app-container
-        image: "quay.io/xiangjingli/arm-sleep:latest"
+        image: "quay.io/yupchang/helloworld:0.0.1"
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 3002
