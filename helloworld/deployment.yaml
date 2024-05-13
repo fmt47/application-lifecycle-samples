@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld-app-container
-        image: "quay.io/yupchang/helloworld:0.0.1"
+        image: "quay.io/yupchang/helloworld:0.0.1-arm64"
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 3002
