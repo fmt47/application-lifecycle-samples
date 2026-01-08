@@ -1,6 +1,6 @@
 ---
 apiVersion: tower.ansible.com/v1alpha1
-kind: AnsibleJob
+kind: AnsibleWorkflow
 metadata:
   name: prehook-workflow-test
   namespace: default
