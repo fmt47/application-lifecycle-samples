@@ -1,0 +1,5 @@
+apiVersion: v2
+name: acm40574-helm-test
+description: Test chart for ACM-40574 cluster-admin gate validation (namespaced + cluster-scoped resources)
+type: application
+version: 0.1.0
