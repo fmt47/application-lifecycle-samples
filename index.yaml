@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   acm40574-helm-test:
   - apiVersion: v2
-    created: "2026-08-17T02:54:12.806958-04:00"
+    created: "2026-08-17T03:03:41.918874-04:00"
     description: Test chart for ACM-40574 cluster-admin gate validation (namespaced
       + cluster-scoped resources)
-    digest: f060f9cf3fdb18775db845a32db332e465e94de87657b39a429e6014143bc874
+    digest: 9e67db9a8fbd9a50f2ee15d5c867f4cf318c458863d642829ec79c3d0a7f78b7
     name: acm40574-helm-test
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   arm-sleep-helm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.807437-04:00"
+    created: "2026-08-17T03:03:41.91912-04:00"
     description: A sample arm application
     digest: 3728087103faed821fba27b15325029306f08cb9a7da3d86ea6f470dafff8b34
     name: arm-sleep-helm
@@ -24,7 +24,7 @@ entries:
   cm-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-17T02:54:12.807854-04:00"
+    created: "2026-08-17T03:03:41.919341-04:00"
     description: A Helm chart for Kubernetes
     digest: 0727b76d19b8c1f0f1bce9054fb928c35cd9d1952128861a01477a6687770bd3
     name: cm-app
@@ -35,7 +35,7 @@ entries:
   guestbook-degraded-helm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.808068-04:00"
+    created: "2026-08-17T03:03:41.919511-04:00"
     description: A Helm chart for degraded application
     digest: 86453eccc5b569a74b5129f9161b4087b56538a83d0c024e12ee27002f552f78
     name: guestbook-degraded-helm
@@ -45,7 +45,7 @@ entries:
   helloworld-helm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.809295-04:00"
+    created: "2026-08-17T03:03:41.92122-04:00"
     description: A sample hello world helm chart
     digest: 63c69e621d89c8e295302371307a740d09b70075e5215845dd994ea68473a2ab
     name: helloworld-helm
@@ -54,7 +54,7 @@ entries:
     version: 3.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.809201-04:00"
+    created: "2026-08-17T03:03:41.921125-04:00"
     description: A sample hello world helm chart
     digest: 2399a783ebfc49cc39e39e5778004a143a404bcb2cc898433960c9a2d5976133
     name: helloworld-helm
@@ -63,7 +63,7 @@ entries:
     version: 3.0.0-stable
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.809105-04:00"
+    created: "2026-08-17T03:03:41.921021-04:00"
     description: A sample hello world helm chart
     digest: e98d6635d754fedd5da70e082189bf47dc7a29675730699a0557a69e9013da48
     name: helloworld-helm
@@ -72,7 +72,7 @@ entries:
     version: "1.8"
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.809006-04:00"
+    created: "2026-08-17T03:03:41.920903-04:00"
     description: A sample hello world helm chart
     digest: 049c7ca45d6219803c9c0e04d39b318e915c5edc3ccdb4a7da5b26534660d95c
     name: helloworld-helm
@@ -81,7 +81,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.80831-04:00"
+    created: "2026-08-17T03:03:41.919716-04:00"
     description: A sample hello world helm chart
     digest: 3e44b3b244b6a6a038eb99260bb767865d711cede962c1dbc003f62d26113779
     name: helloworld-helm
@@ -91,7 +91,7 @@ entries:
   keycloak-x-arm64:
   - apiVersion: v2
     appVersion: 15.0.1
-    created: "2026-08-17T02:54:12.809614-04:00"
+    created: "2026-08-17T03:03:41.921538-04:00"
     description: A Helm chart for Kubernetes
     digest: 50eac53767227d119b9b543d17107b7a30833f7178337253d3d8ca940ea6eb11
     name: keycloak-x-arm64
@@ -102,7 +102,7 @@ entries:
   mortgage:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.811869-04:00"
+    created: "2026-08-17T03:03:41.924211-04:00"
     description: A sample mortgage app
     digest: f139201a1263962f015c5da371f8f030defca064df64a7bf717ce0674e947db8
     name: mortgage
@@ -111,7 +111,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.811639-04:00"
+    created: "2026-08-17T03:03:41.923972-04:00"
     description: A sample mortgage app
     digest: b6a97918b669d5c74062cff5eee5f618d8d16e1ae8df4e862658367133fac64c
     name: mortgage
@@ -120,7 +120,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.811444-04:00"
+    created: "2026-08-17T03:03:41.923775-04:00"
     description: A sample mortgage app
     digest: 7e8c9dc9edaa260b808d4dc114d3ca4a2139ddfc337f5278f9aafc7be6c0b773
     name: mortgage
@@ -129,7 +129,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.811292-04:00"
+    created: "2026-08-17T03:03:41.923663-04:00"
     description: A sample mortgage app
     digest: cd04f871a0969327e8b18859f5ac775ca2052f00d6024fd2b480bd589a2196fd
     name: mortgage
@@ -138,7 +138,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.811159-04:00"
+    created: "2026-08-17T03:03:41.923544-04:00"
     description: A sample mortgage app
     digest: ef4e97e5ff64c3a98b8a6dde2f2bfa22da94241b30d948bbb008abb352d89885
     name: mortgage
@@ -147,7 +147,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.811045-04:00"
+    created: "2026-08-17T03:03:41.923423-04:00"
     description: A ficticious mortgage app
     digest: 85c990c53dbf6dcb947bc5938a17b8e509737b9ea7fdbaacb2bbf665bb126986
     name: mortgage
@@ -156,7 +156,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.810924-04:00"
+    created: "2026-08-17T03:03:41.923306-04:00"
     description: A ficticious mortgage app
     digest: b32144b897ffa427087e9187cef5025f990d81d271b99495b28753a5054e2f00
     name: mortgage
@@ -165,7 +165,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.810797-04:00"
+    created: "2026-08-17T03:03:41.923184-04:00"
     description: A ficticious mortgage app
     digest: ef03a52feb4d6567dea3187df846d1beecbd73308c8b3d56d7d8afa9df9bfd50
     name: mortgage
@@ -174,7 +174,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.810677-04:00"
+    created: "2026-08-17T03:03:41.923056-04:00"
     description: A ficticious mortgage app
     digest: 7567b6fffc917e3b0de4899edc87e8b854539574c6e31d619abab25a536089ea
     name: mortgage
@@ -183,7 +183,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.810557-04:00"
+    created: "2026-08-17T03:03:41.922643-04:00"
     description: A ficticious mortgage app
     digest: 248b6c7a6941877e88ac5a678cfd334692b3670f691af47ec2ebc19a4031c72c
     name: mortgage
@@ -192,7 +192,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.810441-04:00"
+    created: "2026-08-17T03:03:41.922516-04:00"
     description: A ficticious mortgage app
     digest: f8a557c4e50a02ff4ace79ad7bd72126f45f1216f93319e50fd4f05e63602302
     name: mortgage
@@ -201,7 +201,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.810069-04:00"
+    created: "2026-08-17T03:03:41.92209-04:00"
     description: A ficticious mortgage app
     digest: e75775843024b52ce3c23b8b2acf0cf8ee224ab4f2db3f435598c41edf3e87b0
     name: mortgage
@@ -210,7 +210,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.809839-04:00"
+    created: "2026-08-17T03:03:41.921853-04:00"
     description: A ficticious mortgage app
     digest: 5ea5715d600dffd406e36e340ed896eda8fe0f6d87381c3c9aea9fc49307aad1
     name: mortgage
@@ -220,7 +220,7 @@ entries:
   mortgage-channel:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2026-08-17T02:54:12.812347-04:00"
+    created: "2026-08-17T03:03:41.924946-04:00"
     description: A sample mortgage channel
     digest: be7acc104eae8fff0bd64b102e73abc95cf2fdfafbfb3750081f469edc0e2158
     name: mortgage-channel
@@ -230,7 +230,7 @@ entries:
   mortgage-fail-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-17T02:54:12.812485-04:00"
+    created: "2026-08-17T03:03:41.925148-04:00"
     description: A sample failed mortgage helm chart
     digest: a65603b4a6244f058efa6491311b0981d1479e8faf41e1a98acd92a0744d682a
     name: mortgage-fail-helm
@@ -240,11 +240,11 @@ entries:
   mortgage-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-08-17T02:54:12.812816-04:00"
+    created: "2026-08-17T03:03:41.925236-04:00"
     description: A sample mortgage helm chart
     digest: fb16b2f497a411398eea28d56cf3e7e041f9beecb91fde3cbc3e00d6610ed170
     name: mortgage-helm
     urls:
     - https://raw.githubusercontent.com/fmt47/application-lifecycle-samples/main/mortgage-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-17T02:54:12.806749-04:00"
+generated: "2026-08-17T03:03:41.917785-04:00"
