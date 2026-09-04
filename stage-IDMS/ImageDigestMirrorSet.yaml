@@ -1,7 +1,24 @@
+# =============================================================================
+# This file lives in the Git repo the AppSub points to:
+#   repo:   https://github.com/fmt47/application-lifecycle-samples
+#   branch: main
+#   path:   stage-IDMS/          (Subscription annotation git-path: stage-IDMS)
+#
+# The application-manager addon on each selected spoke pulls and applies it.
+# The IDMS reconfigures CRI-O (via a MachineConfig rollout) to pull the listed
+# sources from stage. Covers the classic addons that MCIR cannot reach, plus
+# platform / CAPI images.
+# =============================================================================
 apiVersion: config.openshift.io/v1
 kind: ImageDigestMirrorSet
 metadata:
   name: image-mirror-custom
+  annotations:
+    # Keep this IDMS on the spoke even if the AppSub/Subscription is deleted or
+    # the cluster leaves the placement. Without this, the subscription addon
+    # garbage-collects it -> mirror removed -> MachineConfig rollback -> the
+    # ImagePullBackOff deadlock returns. This is bootstrap-critical, so retain it.
+    apps.open-cluster-management.io/do-not-delete: "true"
 spec:
   imageDigestMirrors:
     # ACM / MCE agent + addon images
