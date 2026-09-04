@@ -1,0 +1,27 @@
+apiVersion: config.openshift.io/v1
+kind: ImageDigestMirrorSet
+metadata:
+  name: image-mirror-custom
+spec:
+  imageDigestMirrors:
+    # ACM / MCE agent + addon images
+    - source: registry.redhat.io/rhacm2
+      mirrors:
+        - registry.stage.redhat.io/rhacm2
+    - source: registry.redhat.io/multicluster-engine
+      mirrors:
+        - registry.stage.redhat.io/multicluster-engine
+    # CAPI provider images
+    - source: registry.redhat.io/openshift4/ose-aws-cluster-api-controllers-rhel9
+      mirrors:
+        - registry.stage.redhat.io/openshift4/ose-aws-cluster-api-controllers-rhel9
+    - source: registry.redhat.io/openshift4/ose-cluster-api-rhel9
+      mirrors:
+        - registry.stage.redhat.io/openshift4/ose-cluster-api-rhel9
+    - source: registry.redhat.io/openshift4/ose-baremetal-cluster-api-controllers-rhel9
+      mirrors:
+        - registry.stage.redhat.io/openshift4/ose-baremetal-cluster-api-controllers-rhel9
+    # oauth-proxy
+    - source: registry.access.redhat.com/openshift4/ose-oauth-proxy
+      mirrors:
+        - registry.redhat.io/openshift4/ose-oauth-proxy
