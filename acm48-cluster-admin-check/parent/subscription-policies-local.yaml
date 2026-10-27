@@ -1,0 +1,14 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: sb-rhacm-policies-local
+  namespace: acm48-policies
+  labels:
+    app: acm48-policies
+  annotations:
+    apps.open-cluster-management.io/github-path: acm48-cluster-admin-check/policies
+    apps.open-cluster-management.io/github-branch: main
+spec:
+  channel: acm48-policies/acm48-git-ch
+  placement:
+    local: true
