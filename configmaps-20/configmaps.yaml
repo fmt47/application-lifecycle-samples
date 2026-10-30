@@ -1,0 +1,199 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-01
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "01"
+  message: "pull model test configmap 01"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-02
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "02"
+  message: "pull model test configmap 02"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-03
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "03"
+  message: "pull model test configmap 03"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-04
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "04"
+  message: "pull model test configmap 04"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-05
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "05"
+  message: "pull model test configmap 05"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-06
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "06"
+  message: "pull model test configmap 06"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-07
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "07"
+  message: "pull model test configmap 07"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-08
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "08"
+  message: "pull model test configmap 08"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-09
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "09"
+  message: "pull model test configmap 09"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-10
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "10"
+  message: "pull model test configmap 10"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-11
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "11"
+  message: "pull model test configmap 11"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-12
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "12"
+  message: "pull model test configmap 12"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-13
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "13"
+  message: "pull model test configmap 13"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-14
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "14"
+  message: "pull model test configmap 14"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-15
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "15"
+  message: "pull model test configmap 15"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-16
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "16"
+  message: "pull model test configmap 16"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-17
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "17"
+  message: "pull model test configmap 17"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-18
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "18"
+  message: "pull model test configmap 18"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-19
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "19"
+  message: "pull model test configmap 19"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pull-test-cm-20
+  labels:
+    app: pull-test-configmaps
+data:
+  index: "20"
+  message: "pull model test configmap 20"
