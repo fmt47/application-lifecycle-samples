@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: impersonation-demo-og
+  namespace: impersonation-demo
+  labels:
+    app.kubernetes.io/part-of: acm-impersonation-test
+spec:
+  targetNamespaces:
+    - impersonation-demo

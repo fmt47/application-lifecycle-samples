@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: impersonation-demo-allowed
+  namespace: impersonation-demo
+  labels:
+    app.kubernetes.io/part-of: acm-impersonation-test
+data:
+  note: "deployer SA is allowed to create ConfigMaps - this should always succeed"

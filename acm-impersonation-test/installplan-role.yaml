@@ -1,0 +1,14 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: impersonation-demo-installplan-updater
+  namespace: impersonation-demo
+  labels:
+    app.kubernetes.io/part-of: acm-impersonation-test
+rules:
+  - apiGroups:
+      - operators.coreos.com
+    resources:
+      - installplans
+    verbs:
+      - update
